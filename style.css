@@ -1,0 +1,30 @@
+h1{
+    border-bottom: 3px solid black;
+    text-align: center;
+    margin: 0;
+    height: 60px;
+}
+
+body{
+    margin: 0;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;  
+}
+
+#grid #article{
+ padding-left: 20px;
+}
+
+#grid dl{
+    border-right: 3px solid black;
+    margin: 0;
+}
+
+#grid dt{
+    width: 130px;
+    padding: 20px;
+    margin: 0;
+}
