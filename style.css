@@ -7,11 +7,13 @@ h1{
 
 body{
     margin: 0;
+    height: 100vh;
 }
 
 #grid{
     display: grid;
-    grid-template-columns: 150px 1fr;  
+    grid-template-columns: 150px 1fr;
+    height: 100%;  
 }
 
 #grid #article{
@@ -28,3 +30,8 @@ body{
     padding: 20px;
     margin: 0;
 }
+
+summary{
+    list-style: none;
+}
+
