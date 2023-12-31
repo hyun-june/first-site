@@ -1,8 +1,10 @@
 h1{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #333333;
     text-align: center;
     margin: 0;
     height: 60px;
+    background-color:#C6A969;
+    color: #333333;
 }
 
 body{
@@ -18,20 +20,47 @@ body{
 
 #grid #article{
  padding-left: 20px;
-}
-
-#grid dl{
-    border-right: 3px solid black;
-    margin: 0;
+ background-color: #FFFFEC;
 }
 
 #grid dt{
     width: 130px;
     padding: 20px;
     margin: 0;
+    font-weight: bolder;
+    padding: 10;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+#grid dl{
+    border-right: 3px solid #333333;
+    margin: 0;
+    background-color: #F1E4C3;
+}
+
+#grid dd{
+    margin-left: 30px;
+    margin-bottom: 5px;
 }
 
 summary{
     list-style: none;
 }
 
+a:link {
+    color : #333333;
+    text-decoration: none;
+  }
+  a:visited {
+    color : #333333;
+    text-decoration: none;
+  }
+  a:hover {
+    color : #333333;
+    text-decoration: underline;
+  }
+  a:active {
+    color : green;
+    text-decoration: none;
+  }
