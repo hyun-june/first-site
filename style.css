@@ -111,6 +111,7 @@ h1 {
   margin: 0 auto;
   main-width:1380px;
   max-width: 100%;
+  width: 800px;
 }
 .tab {
   overflow: hidden;
@@ -136,4 +137,10 @@ h1 {
    padding: 30px;
    line-height: 1.5;
    font-size: 17px;
+}
+
+@media screen and (min-width:1250px) {
+  #grid #article {
+    text-align: center; 
+  }
 }
